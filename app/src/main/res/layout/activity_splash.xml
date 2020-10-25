@@ -7,15 +7,13 @@
     android:background="#fff"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    android:layout_gravity="center"
+    android:gravity="center"
     tools:context=".activities.SplashActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="20sp"
-        android:text="SplashActivity"
-        android:textStyle="bold"
-        android:gravity="center"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/splash_screen_logo"
+        android:background="@android:color/black"/>
 
 </LinearLayout>
