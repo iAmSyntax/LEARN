@@ -3,9 +3,7 @@ package com.example.learn.activities
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
-import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.learn.MainActivity
 import com.example.learn.R
 
 class SplashActivity : AppCompatActivity() {
