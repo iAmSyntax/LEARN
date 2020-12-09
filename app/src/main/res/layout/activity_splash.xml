@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
     android:fitsSystemWindows="true"
-    android:orientation="vertical"
     android:gravity="center"
-    tools:context=".activities.SplashActivity">
+    tools:context=".activities.SplashActivity"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img1"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="550dp"-->
+<!--        android:translationY="-400dp"-->
+<!--        android:translationX="-200dp"-->
+<!--        android:background="@drawable/ic_stick"-->
+<!--        android:rotation="45"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img2"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="550dp"-->
+<!--        android:translationY="-130dp"-->
+<!--        android:translationX="-300dp"-->
+<!--        android:background="@drawable/ic_stick"-->
+<!--        android:rotation="45"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
         android:id="@+id/splash_screen_logo"
-        android:background="@android:color/black"/>
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_x="160dp"
+        android:layout_y="388dp"
+        android:background="@mipmap/ic_splash_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
